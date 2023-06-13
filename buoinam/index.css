@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* bd header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 970px;
+    height: 100px;
+    padding: 10px;
+    margin: auto;
+    
+}
+
+.logo {
+    width: 200px;
+}
+
+.logo img, .header-right{
+    width: 40%;
+}
+
+.header-right{
+    width: 20%;
+}
+
+.header-center {
+    flex-grow: 1;
+}
+.header-center input{
+    position: relative;
+    right: -18px;
+    border-radius: 7px;
+    width: 250px;
+    height: 20px;
+    border: 2px solid coral;
+    outline: none;
+    bottom: 2px;
+    padding-left: 10px;
+}
+.header-center input:hover{
+    cursor: pointer;
+    border: solid 2px blueviolet;
+}
+.header-center i{
+    position: absolute;
+    width: 400px;
+    height: 70px;
+}
+
+.header-right{
+    text-align: center;
+    display: flex;
+}
+
+.header-right i{
+    padding: 8px;
+    font-size: 20px;
+}
+
+/* bắt đầu menu */
+.menu{
+    background-color: aqua;
+    width: 980px;
+    margin: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+.menu-left {
+    display: flex;
+    width: 40%;
+    justify-content: inherit;
+}
+.menu-item {
+    font-size: 20px;
+    text-transform: capitalize;
+    border-right: solid 2px white;
+    padding: 15px;
+    color: black;
+    cursor: pointer;
+}
+
+.menu-item:hover{
+    background: #2b94a5;
+}
+.menu-center {
+    display: flex;
+    width: 40%;
+    
+}
+.menu-item-center{
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+    margin: 0 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* bd menu right */
+.menu-right i{
+    font-size: 25px;
+    border-left: solid 2px white;
+    padding: 5px;
+    margin-right: 150px;
+}
+/* bd main */
+.main{
+    width: 981px;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+.main-left{
+    width: 70%;
+}
+
+.main-right {
+    flex-grow: 1;
+    background: chartreuse;
+}
+
+.left-top img{
+    width: 100%;
+    height: 400px;
+}

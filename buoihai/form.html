@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        .hi{
+            padding: 10px;
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <h5>demo thẻ form</h5>
+    <div class="hi">
+        <input type="text" placeholder="nhập vào tên">
+    </div>
+
+    <div class="hi">
+        <input type="number" placeholder="nhập vào số điện thoại" min="0">
+    </div>
+
+    <div class="hi">
+        <input type="email" placeholder="nhập vào email">
+    </div>
+
+    <div class="hi">
+        <input type="checkbox"> bạn có muốn đi chơi không
+        <!-- kiểu dữ liệu booler -->
+    </div>
+
+    <div class="hi">
+        <h5>bạn giới tính gì</h5>
+        <input type="radio" name="gioitinh" />nam
+        <input type="radio" name="gioitinh"/>nữ
+        <input type="radio"name="gioitinh" />khác
+    </div>
+    <!-- khác nhau giữa radio và check ntn
+        ra radio chỉ xuất hiện ở danh sách
+        checkbox là tùy chọn, radio bắt buộc phải chọn không chọn radio này thì chọn cái radio khác
+    -->
+    <div class="padding">
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+    </div>
+
+    <div class="padding">
+        <input type="date">
+    </div>
+
+    <div class="padding">
+        <input type="file"/>
+        <input type="password" placeholder="password">
+    </div>
+    <div class="padding">
+        <input type="range">
+    </div>
+    <div class="padding">
+        <select>
+            <option value="">hn</option>
+            <option value="">dak lak</option>
+            <option value="">nha trang</option>
+        </select>
+    </div>
+    <div>
+        <h4>địa chỉ đám cưới</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31191.72082921408!2d109.17949675!3d12.2506408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31706780b9253cbd%3A0xabf4e615fe82dcf8!2zTmjDoCBIw6BuZyDEkMOobiBM4buTbmcgxJDhu48!5e0!3m2!1svi!2s!4v1680578328738!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+    <h3>From</h3>
+    <div class="hi">
+        <input type="radio" name="gioitinh">Title
+        <input type="radio" name="gioitinh">Mr
+        <input type="radio" name="gioitinh">Mrs
+        <input type="radio" name="gioitinh">Miss
+    </div>
+    <div class="hi">
+        <h5>first name</h5>
+        <input type="text" placeholder="nhập vào họ">
+    </div>
+    <div class="hi">
+        <h5>Last name</h5>
+        <input type="text" placeholder="nhập vào tên đệm">
+    </div>
+    <div class="hi">
+        <h5>Email</h5>
+        <input type="text" placeholder="nhập vào email">
+    </div>
+    <div class="hi">
+        <h5>Phone name</h5>
+        <input type="number" maxlength="10" placeholder="nhập vào họ">
+    </div>
+    <div class="hi">
+        <h5>password</h5>
+        <input type="password" placeholder="nhập vào họ">
+    </div>
+    <div class="hi">
+        <h5>confilm you password</h5>
+        <input type="password">
+    </div>
+    <div class="hi">
+        <h5>country</h5>
+        <select>
+            <option value="cn" >canadas</option>
+            <option value="vm" selected>vn</option>
+            <option value="ca">campuchia</option>
+        </select>
+    </div>
+    <div class="hi">
+        <input type="checkbox"> I agree to the
+    </div>
+    <button>sign</button>
+</body>
+</html>
